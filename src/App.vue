@@ -7,11 +7,16 @@
 <script>
   import Header from '@/components/Header.vue';
 
-  export default{
-    
+  export default {
+    name: 'App',
+    components: {
+      Header,
+    }
   };
 </script>
 
-<style lang='css'>
-
+<style lang='scss'>
+     *{
+       text-align: center;
+     }
 </style>

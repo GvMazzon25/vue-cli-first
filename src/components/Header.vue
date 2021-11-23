@@ -10,6 +10,14 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped lang='scss'>
+   header{
+     background-color: red;
+     width: 100%;
+     height: 40%;
+    
+    h1{
+      color: blue;
+     }
+   }
 </style>
